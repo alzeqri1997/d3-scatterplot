@@ -1,0 +1,34 @@
+svg, input{
+  display: block;
+  margin: 0 auto;
+}
+
+h1{
+  /* position: absolute; */
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.tooltip {
+  opacity: 0;
+  position: absolute;
+  pointer-events: none;
+  border: 8px solid #124e96;
+  background-color: #daeaf6;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.tooltip p {
+  margin: 2px;
+}
+
+.tooltip:after {
+  content: ' ';
+  position: absolute;
+  left: 50%;
+  border: 8px solid transparent;
+  border-top-color: #124e96;
+  bottom: -24px;
+  margin-left: -4px;
+}
