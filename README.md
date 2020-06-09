@@ -1,6 +1,6 @@
 # Data Visualization Using D3.js
 
-**Demo deployed with github-pages:** http://example.com
+**Demo deployed with netlify:** https://d3-scatterplot.netlify.app/
 
 ## Screenshot
 
